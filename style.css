@@ -82,7 +82,7 @@ body{
 
 .social{
     background-color: var(--clr-Purple500);
-    grid-area:1/2/3/4; 
+    grid-area:1/2/2/4; 
 }
 
 .schedule{
