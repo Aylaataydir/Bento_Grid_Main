@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+:root{
+
+--clr-Purple100: hsl(254, 88%, 90%);
+--clr-Purple500: hsl(256, 67%, 59%);
+
+--clr-Yellow100: hsl(31, 66%, 93%);
+--clr-Yellow500: hsl(39, 100%, 71%);
+
+--clr-White: hsl(0, 0%, 100%);
+--clr-Black: hsl(0, 0%, 7%);
+
+--fw-500: 500
+
+--ff-DMSans: "DM Sans", system-ui, sans-serif; 
+
+}
+
+
+/*---------- CSS RESET ------------*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/*------------CSS RESET END------------------*/
+
+body{
+    
+}
