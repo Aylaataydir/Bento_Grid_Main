@@ -65,4 +65,9 @@ body{
     font-size: 1.125rem;
 }
 
+.main{
+    display: grid;
+}
+
+
 
