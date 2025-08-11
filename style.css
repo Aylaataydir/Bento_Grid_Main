@@ -68,9 +68,43 @@ body{
 .main{
     max-width: 1440px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 50px 100px;
+}
+
+.create{
+    background-color: var(--clr-Yellow100);
+}
+
+.social{
+    background-color: var(--clr-Purple500);
+}
+
+.schedule{
+    background-color: var(--clr-Purple100);
+}
+
+.write{
+    background-color: var(--clr-Yellow500);
+}
+
+.manage{
+    background-color: var(--clr-White);
 
 }
 
+.maintain{
+    background-color: var(--clr-Yellow500);
+
+}
+
+.faster{
+background-color: var(--clr-White);
+}
+
+.grow{
+    background-color: var(--clr-Purple500);
+}
 
 
