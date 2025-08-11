@@ -13,7 +13,7 @@
 --clr-White: hsl(0, 0%, 100%);
 --clr-Black: hsl(0, 0%, 7%);
 
---fw-500: 500
+--fw-500: 500;
 
 --ff-DMSans: "DM Sans", system-ui, sans-serif; 
 
@@ -61,5 +61,8 @@ h1, h2, h3, h4, h5, h6 {
 body{
 
     min-height: 100vh;
-    
+    font-family: var(--ff-DMSans);
+    font-size: 1.125rem;
 }
+
+
