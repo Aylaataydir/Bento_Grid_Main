@@ -63,7 +63,7 @@ body{
     min-height: 100vh;
     font-family: var(--ff-DMSans);
     font-size: 1rem;
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
 }
 
 .main{
@@ -71,7 +71,7 @@ body{
     max-width: 1440px;
     display: grid;
      grid-template-columns: 1.1fr 1fr 1fr 1.1fr;
-  grid-template-rows: 1fr 0.7fr 1fr;
+    grid-template-rows: 1fr  1fr;
     gap: 20px;
     padding: 50px 100px;
     grid-template-areas:
@@ -86,7 +86,7 @@ body{
     background-color: var(--clr-Yellow100);
     grid-area: create;
     font-size: 12px;
-    line-height: 1;
+    line-height: ;
     font-weight: normal;
  
     padding: 20px;
@@ -111,6 +111,7 @@ body{
 .write{
     background-color: var(--clr-Yellow500);
     grid-area: write;
+    font-size: 42px;
 }
 
 .manage{
