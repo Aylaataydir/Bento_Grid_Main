@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 /*------------CSS RESET END------------------*/
 
 body{
-
+    background-color: rgb(238, 234, 234);
     min-height: 100vh;
     font-family: var(--ff-DMSans);
     font-size: 1rem;
@@ -67,6 +67,7 @@ body{
 }
 
 .main{
+
     max-width: 1440px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
