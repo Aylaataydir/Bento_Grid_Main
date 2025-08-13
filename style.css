@@ -61,18 +61,21 @@ h1, h2, h3, h4, h5, h6 {
 body{
     background-color: rgb(237, 237, 237);
     min-height: 100vh;
+    height: 100%;
     font-family: var(--ff-DMSans);
     font-size: 1rem;
-    /* letter-spacing: -1px; */
+    letter-spacing: -1px;
+    
 }
 
 .main{
 
     max-width: 1440px;
-    width: 100%;
     display: grid;
     gap: 20px;
-    padding: 50px 100px;
+    margin: 0 auto;
+  
+    grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
     "create social social schedule"
     "create manage maintain schedule"
@@ -81,20 +84,7 @@ body{
 
 }
 
- @media (max-width: 900px){
-  .main{
-    min-width: 375px;
-    grid-template-areas:
-    "create"
-    "social"
-    "schedule"
-    "manage"
-    "maintain"
-    "write"
-    "faster"
-    "grow";
-  }
- }
+ 
 
 .create{
     background-color: var(--clr-Yellow100);
