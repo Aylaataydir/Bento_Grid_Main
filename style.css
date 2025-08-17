@@ -131,6 +131,9 @@ body{
 .social{
     background-color: var(--clr-Purple500);
     grid-area: social; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .schedule{
