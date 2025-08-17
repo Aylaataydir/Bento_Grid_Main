@@ -160,8 +160,8 @@ body{
 .schedule {
     background-color: var(--clr-Purple100);
     grid-area: schedule;
-    position: relative;
     overflow: hidden;
+  
     
 }
 
@@ -169,30 +169,38 @@ body{
   font-size: 1.25rem;
   line-height: 1.2rem;
   font-weight:  600;
-  margin-bottom: 20px
+  
 }
 
 .schedule-img {
- position: absolute;
+ position: relative;
  max-width: none !important;
- width: 150%;
+ width: 190%;
+ margin: 20px auto;
 }
 
 .schedule p {
   font-size: .75rem;
   font-weight: 500;
-  letter-spacing: 5px;
-  position: absolute;
-  bottom: 10px;
+  letter-spacing: -0.2px !important;
   letter-spacing: -0.8px;
   line-height: 15px;
-
+  opacity: 0.8;
 }
 
 .write{
     background-color: var(--clr-Yellow500);
     grid-area: write;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  
 }
+
+.manage-img {
+  
+}
+
 
 .manage{
     background-color: var(--clr-White);
