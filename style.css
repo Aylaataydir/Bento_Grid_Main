@@ -105,7 +105,7 @@ body{
   line-height: 1.8rem;
   max-width: 100%;
   border-radius: 10px;
-  font-size: 1rempx;
+  
 }
 
 .box h1{
@@ -126,8 +126,6 @@ body{
 
 
 
-
-
 .social{
     background-color: var(--clr-Purple500);
     grid-area: social; 
@@ -135,6 +133,18 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
+.social h1 {
+  color: var(--clr-White);
+  font-size: 40px;
+  line-height: 2.5rem;
+  letter-spacing: .03125rem;
+  text-align: center;
+}
+
+.social img (
+  
+)
 
 .schedule{
     background-color: var(--clr-Purple100);
