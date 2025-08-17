@@ -61,6 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body{
     min-height: 100vh;
+    max-width: 1440;
     background-color: rgb(237, 237, 237);
     font-family: var(--ff-DMSans);
     font-size: 1rem;
@@ -177,6 +178,7 @@ body{
  max-width: none !important;
  width: 190%;
  margin: 20px auto;
+ object-fit: cover;
 }
 
 .schedule p {
@@ -209,29 +211,33 @@ body{
 .manage{
     background-color: var(--clr-White);
     grid-area: manage;
-    overflow: hidden;
+    overflow: clip;
 }
 
 .manage h1 {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 .maintain{
     background-color: var(--clr-Yellow500);
     grid-area: maintain;
     position: relative;
-    overflow: hidden;
+    overflow: clip;
 
+}
+
+.maintain h1 {
+  font-size: 1.5rem /* 24/16 */;
 }
 
 .maintain-img {
   position: absolute;
   max-width: none !important;
   width: 80%;
-  top: 190px;
+  
   align-items: center;
   object-fit: cover;
-  object-position: ;
+  object-position: 70% 80%;
 
 }
 
