@@ -198,19 +198,40 @@ body{
 }
 
 .manage-img {
-  
+  position: relative;
+  max-width: none !important;
+  width: 145%;
+  margin-bottom: 25px;
+
 }
 
 
 .manage{
     background-color: var(--clr-White);
     grid-area: manage;
+    overflow: hidden;
+}
 
+.manage h1 {
+  font-size: 36px;
 }
 
 .maintain{
     background-color: var(--clr-Yellow500);
     grid-area: maintain;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.maintain-img {
+  position: absolute;
+  max-width: none !important;
+  width: 80%;
+  top: 190px;
+  align-items: center;
+  object-fit: cover;
+  object-position: ;
 
 }
 
