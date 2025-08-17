@@ -160,12 +160,38 @@ body{
 .schedule {
     background-color: var(--clr-Purple100);
     grid-area: schedule;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.schedule h1 {
+  font-size: 1.25rem;
+  line-height: 1.2rem;
+  font-weight:  600;
+  margin-bottom: 20px
+}
+
+.schedule-img {
+ position: absolute;
+ max-width: none !important;
+ width: 150%;
+}
+
+.schedule p {
+  font-size: .75rem;
+  font-weight: 500;
+  letter-spacing: 5px;
+  position: absolute;
+  bottom: 10px;
+  letter-spacing: -0.8px;
+  line-height: 15px;
+
 }
 
 .write{
     background-color: var(--clr-Yellow500);
     grid-area: write;
-    
 }
 
 .manage{
